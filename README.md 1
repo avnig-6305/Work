@@ -23,38 +23,28 @@ This tool is designed to scan a specific target IP address or domain to identify
 ## 📂 Task 2: SQL Injection Vulnerability Scanner
 
 ### 📌 Project Overview
-This script is a web application security utility designed to test input parameters of websites for **SQL Injection (SQLi) vulnerabilities**. It automates the process of injecting common SQL payloads (like `'` or `" OR 1=1 --`) into URLs and parses the target's HTTP responses to check for classic database error signatures (MySQL, Oracle, PostgreSQL).
+This script is a web application security utility designed to test input parameters of websites for **SQL Injection (SQLi) vulnerabilities**. It automates the process of injecting common SQL payloads (like `'` or `" OR 1=1 --`) into URLs and parses the target's HTTP responses to check for classic database error signatures.
 
 ### 🛠️ Technology Stack
 * **Language:** Python 3.x
 * **External Library:** `requests` (for managing HTTP GET requests)
 * **Core Modules:** `sys`
 
-### 🚀 How to Run Task 2
-1. Install dependencies:
-   ```bash
-   pip install requests
-   ```
-2. Execute the script:
-   ```bash
-   python sqli_scanner.py
-   ```
-3. Enter a test URL when prompted (e.g., `http://vulnweb.com`) to see a live demonstration of a vulnerability catch.
-process of injecting common SQL payloads (like `'` or `" OR 1=1 --`) into URLs and parses the target's HTTP responses to check for classic database error signatures (MySQL, Oracle, PostgreSQL).
+---
+
+## 📂 Task 3: Intrusion Detection System (Snort Simulation)
+
+### 📌 Project Overview
+This project is an automated network security monitoring simulation designed to function like a basic **Intrusion Detection System (IDS)** using a Snort-like signature matching engine. The script processes simulated packet data traffic in real time and inspects source IPs against a signature rule-set to trigger immediate flags and alerts for malicious behaviors like port scanning, DDoS spikes, or unauthorized login attempts.
 
 ### 🛠️ Technology Stack
 * **Language:** Python 3.x
-* **External Library:** `requests` (for managing HTTP GET requests)
-* **Core Modules:** `sys`
+* **Core Modules:** `time`, `random`, `datetime`
 
-### 🚀 How to Run Task 2
-1. Install dependencies:
+### 🚀 How to Run Task 3
+1. Execute the simulator file:
    ```bash
-   pip install requests
+   python ids_simulator.py
    ```
-2. Execute the script:
-   ```bash
-   python sqli_scanner.py
-   ```
-3. Enter a test URL when prompted (e.g., `http://vulnweb.com`) to see a live demonstration of a vulnerability catch.
-
+2. The network interface loop will immediately boot up and begin scanning background traffic.
+3. Press `Ctrl + C` at any point to stop the security monitor administration stream safely.
