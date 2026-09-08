@@ -29,22 +29,3 @@ This script is a web application security utility designed to test input paramet
 * **Language:** Python 3.x
 * **External Library:** `requests` (for managing HTTP GET requests)
 * **Core Modules:** `sys`
-
----
-
-## 📂 Task 3: Intrusion Detection System (Snort Simulation)
-
-### 📌 Project Overview
-This project is an automated network security monitoring simulation designed to function like a basic **Intrusion Detection System (IDS)** using a Snort-like signature matching engine. The script processes simulated packet data traffic in real time and inspects source IPs against a signature rule-set to trigger immediate flags and alerts for malicious behaviors like port scanning, DDoS spikes, or unauthorized login attempts.
-
-### 🛠️ Technology Stack
-* **Language:** Python 3.x
-* **Core Modules:** `time`, `random`, `datetime`
-
-### 🚀 How to Run Task 3
-1. Execute the simulator file:
-   ```bash
-   python ids_simulator.py
-   ```
-2. The network interface loop will immediately boot up and begin scanning background traffic.
-3. Press `Ctrl + C` at any point to stop the security monitor administration stream safely.
