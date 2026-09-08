@@ -1,0 +1,60 @@
+# CODTECH IT Solutions Internship Projects
+
+## 👤 Intern Information
+* **Name:** Avni Goyal
+* **Intern ID:** CITS9080
+* **Domain:** Cyber Security & Ethical Hacking / Python Development
+* **Duration:** September 8, 2026 - October 8, 2026
+* **Mentor:** CodTech IT Solutions Evaluation Team
+
+---
+
+## 📂 Task 1: Advanced Multi-Threaded Port Scanner
+
+### 📌 Project Overview
+This tool is designed to scan a specific target IP address or domain to identify open TCP ports within the standard range (1-1024). By leveraging **Multi-threading** via Python's `concurrent.futures` module, the execution speed scales down scan times from several minutes to just a few seconds.
+
+### 🛠️ Technology Stack
+* **Language:** Python 3.x
+* **Core Modules:** `socket`, `concurrent.futures`, `sys`, `datetime`
+
+---
+
+## 📂 Task 2: SQL Injection Vulnerability Scanner
+
+### 📌 Project Overview
+This script is a web application security utility designed to test input parameters of websites for **SQL Injection (SQLi) vulnerabilities**. It automates the process of injecting common SQL payloads (like `'` or `" OR 1=1 --`) into URLs and parses the target's HTTP responses to check for classic database error signatures (MySQL, Oracle, PostgreSQL).
+
+### 🛠️ Technology Stack
+* **Language:** Python 3.x
+* **External Library:** `requests` (for managing HTTP GET requests)
+* **Core Modules:** `sys`
+
+### 🚀 How to Run Task 2
+1. Install dependencies:
+   ```bash
+   pip install requests
+   ```
+2. Execute the script:
+   ```bash
+   python sqli_scanner.py
+   ```
+3. Enter a test URL when prompted (e.g., `http://vulnweb.com`) to see a live demonstration of a vulnerability catch.
+process of injecting common SQL payloads (like `'` or `" OR 1=1 --`) into URLs and parses the target's HTTP responses to check for classic database error signatures (MySQL, Oracle, PostgreSQL).
+
+### 🛠️ Technology Stack
+* **Language:** Python 3.x
+* **External Library:** `requests` (for managing HTTP GET requests)
+* **Core Modules:** `sys`
+
+### 🚀 How to Run Task 2
+1. Install dependencies:
+   ```bash
+   pip install requests
+   ```
+2. Execute the script:
+   ```bash
+   python sqli_scanner.py
+   ```
+3. Enter a test URL when prompted (e.g., `http://vulnweb.com`) to see a live demonstration of a vulnerability catch.
+
